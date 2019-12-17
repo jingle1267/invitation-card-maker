@@ -3,7 +3,7 @@ var app = new Vue({
     data: {
         size: 600,
         cvsHeight: 600,
-        background: '/res/tp1.jpg',
+        background: './res/tp1.jpg',
         texts: [],
         qrCodes: [],
         variables: [],

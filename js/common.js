@@ -26,7 +26,7 @@ String.prototype.format = function(args) {
 var configs = [
     {
         size: 600,
-        background: '/res/tp1.jpg',
+        background: './res/tp1.jpg',
         texts: [
             {
                 content: '诚邀 {0} ',
@@ -102,7 +102,7 @@ var configs = [
         ],
         qrCodes: [
             {
-                content: 'http://marry.example.com/?n={0}&t={1}',
+                content: 'https://94275.cn/invitation-card-maker/',
                 color: {
                     foreground: '#000',
                     background: '#fff'
