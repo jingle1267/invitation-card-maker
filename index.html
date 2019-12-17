@@ -9,9 +9,9 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <script src="https://use.fontawesome.com/6364f396e2.js"></script>
     <link href="https://fonts.loli.net/css?family=Kaushan+Script|Ma+Shan+Zheng|ZCOOL+XiaoWei|Noto+Sans+SC&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <script src="js/qr.js"></script>
-    <script src="js/common.js"></script>
+    <script src="./js/vue.js"></script>
+    <script src="./js/qr.js"></script>
+    <script src="./js/common.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -139,7 +139,7 @@
                                 <input ref="qr-color-bg" v-show="false" type="color" v-model="qrCode.color.background">
                                 <input type="text" id="qr-color-bg" v-model="qrCode.color.background">
                                 <span class="qr-color" :style="{ background: qrCode.color.background }" @click="$refs['qr-color-bg'].click()"></span>
-                            </span class="form-coord">
+                            </span>
                         </p>
                         <p>
                             <label class="form-label" for="qr-variable">Variable</label>
@@ -161,7 +161,9 @@
             </section>
         </article>
         <footer>
-            <p style="display: none;"><script type="text/javascript" src="https://s95.cnzz.com/z_stat.php?id=1261530627&web_id=1261530627"></script></p>
+            <div style="display:none">
+                <script type="text/javascript" src="https://s95.cnzz.com/z_stat.php?id=1260545070&web_id=1260545070"></script>
+            </div>
         </footer>
     </div>
     <script src="js/do.js"></script>

@@ -26,7 +26,7 @@ String.prototype.format = function(args) {
 var configs = [
     {
         size: 600,
-        background: './res/tp1.jpg',
+        background: '/invitation-card-maker/res/tp1.jpg',
         texts: [
             {
                 content: '诚邀 {0} ',
